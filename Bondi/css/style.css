@@ -1,0 +1,44 @@
+:root {
+    --body-bg: #19283F;
+    --text-nav: #ffffff;
+    --btn-bg: #FF3150;
+    --yellow-color:#ffc400;
+}
+
+.navbar {
+    background-color: var(--body-bg);
+}
+
+.collapse .navbar-nav .nav-link {
+    color: var(--text-nav) !important;
+}
+
+.search {
+    border-left: #27D1CC solid 0.1rem;
+}
+
+.btn {
+    background-color: var(--btn-bg) !important;
+}
+.main-btn {
+    background-color: var(--red-color);
+    color: var(--yellow-color) !important;
+    padding: 0.5rem 1rem;
+}
+
+.stard-section {
+    background-color: var(--body-bg);
+    /* min-height: calc(100vh - 72px); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 90vh !important;
+
+}
+
+.row{
+    padding-top: 18rem;
+}
+/* #EFF7FA */
+
